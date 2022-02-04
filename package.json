@@ -1,0 +1,31 @@
+{
+  "name": "google-cloud-playright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "functions-framework --target=demo",
+    "lint": "eslint --ext .js .",
+    "lint:fix": "eslint --ext .js .",
+    "prettier:fix": "prettier --write .",
+    "firstrun": "BROWSER='chromium' jest --config=jest.config.js Authentication.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^2.1.1",
+    "chrome-aws-lambda": "^10.1.0"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "jest-playwright-preset": "^1.7.0",
+    "playwright": "^1.18.1",
+    "prettier": "^2.4.0",
+    "eslint": "7.32.0",
+    "eslint-config-standard": "16.0.0",
+    "eslint-plugin-import": "2.24.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-promise": "4.3.0",
+    "eslint-plugin-standard": "4.0.1"
+  }
+}
