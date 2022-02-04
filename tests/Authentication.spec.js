@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 require('playwright');
 
-describe('Signup Test Suite', () => {
+describe('Authentication Test Suite', () => {
   it('Authentication', async () => {
     await page.goto('https://localcoding.us/user/login', {
       waitUntil: 'networkidle0',
