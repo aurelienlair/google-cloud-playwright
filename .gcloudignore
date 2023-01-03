@@ -12,5 +12,11 @@
 # below:
 .git
 .gitignore
-
+.history
+README.md
+docs
+.prettierc
+.env.dist
+.editorconfig
+.nvmrc
 node_modules
